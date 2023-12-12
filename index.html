@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Booki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +13,69 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
+  <body>
+    <!--  *       HEADER          -->
 
-<body>
+    <header>
+        <div class="logo">
+            <img src="./images/logo/Booki@3x.png" alt="Booki">
+        </div>
+        <div class="links">
+            <ul>
+                <li>
+                    <a href="#hébergement">hébergement</a>
+                </li>
+                <li>
+                    <a href="#activité">activités</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+        <!-- *       recherche  Bar     -->
+        <form action="#">
+            <div class="bouton-recherche">
+                <h1>Trouver votre hébergement pour des vacances de rêves</h1>
+                <p> En plein centre ville ou en pleine nature</p>
+                <i class="fa-solid fa-location-dot"></i>
+                <label for="recherche" class="accessibility-label">Entrez le nom de la ville </label>
+                <input type="text" id="recherche" placeholder="Marseille, France">
+                <button> <span> Rechercher </span>
+                 <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+         </form>
+
+          <!--  *       Filters    -->
+
+          <div class="filtres">
+                <h3>Filtres</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <span>Économique</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-child"></i>
+                        <span>Familial</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-heart"></i>
+                        <span>Romantique</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-fire"></i>
+                        <span>Nos pepites</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="icon info">
+                <i class="fa-solid fa-circle-info"></i>
+                <span>Plus de 500 logements sont disponibles dans cette ville</span>
+            </div>
+          </div>
+
+  </body>
     <div class="main-container">
         <header></header>
         <main>
